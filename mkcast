@@ -62,7 +62,7 @@ wmctrl -r $win -e 0,$wx,$wy,$ww,$wh
 
 (
 # start screenkey
-"$(dirname "$(readlink -f "$0")")/screenkey/screenkey" $@ >/dev/null 2>&1
+"$(dirname "$(readlink -f "$0")")/screenkey/screenkey" $@ & >/dev/null 2>&1
 
 if [[ $duration == W* ]]
 then
