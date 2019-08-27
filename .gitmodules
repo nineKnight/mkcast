@@ -1,0 +1,3 @@
+[submodule "screenkey"]
+	path = screenkey
+	url = https://gitlab.com/wavexx/screenkey
