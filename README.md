@@ -1,4 +1,4 @@
-# OBSOLETE
+# NO MORE OBSOLETE
 
 mkcast is no longer being maintained (by me, at any rate). It's really just a bundle of hackiness and kludges, so I've essentially rewritten it from scratch: [KeyboardFire/xscast](https://github.com/KeyboardFire/xscast).
 
