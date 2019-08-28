@@ -72,7 +72,7 @@ else
 fi
 
 # start recording the window
-byzanz-record -x $wx -y $wy -w $ww -h $wh $ENDCMD "$outfile" 2> /dev/null
+echo "byzanz-record -x $wx -y $wy -w $ww -h $wh $ENDCMD "$outfile" 2> /dev/null" | bash
 
 # finished
 #ps ax | grep 'screenkey' | grep -o '^[0-9 ]*' | head -n1 | xargs kill
